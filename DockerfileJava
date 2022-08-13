@@ -1,0 +1,5 @@
+FROM ubuntu:latest
+
+MAINTAINER Wes Wang "wangluheng328@gmail.com"
+
+RUN apt-get update && apt-get install -y openjdk-17-jdk
